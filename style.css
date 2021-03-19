@@ -52,21 +52,23 @@ a:hover{
     position: relative;
 }
 
+.place{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
 .banner_text{
     color: white;
     max-width: 50%;
-    position: absolute;
-    left: 5%;
-    bottom: 25%;
     font-size: 25px;
-    line-height: 25px;
+    
 }
 .banner_subtext{
     color: white;
     max-width: 50% ;
-    position: absolute;
-    left: 5%;
-    bottom: 15%;
+    font-size: 15px;
+    
 }
 /* /Yoga Banner and Text */
 
@@ -100,7 +102,7 @@ a:hover{
 }
 
 .central{
-    width: 55%;
+    width: 60%;
     padding:0 2% ;
     height: 300px;
     background-color: white;
@@ -136,14 +138,15 @@ a:hover{
     
  .central_picture{
      background-image: url('./img/banner-2.jpg');
-     background-size: contain;
-     background-position: center;
-     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50%;
+     /* background-position: center;
+     background-repeat: no-repeat; */
      height: 180px;
      width: 100%;
      border-radius: 1rem;
      filter: brightness(70%);
-     border: 2px solid black;
+     /* border: 2px solid black; */
  }
  /* /Float section  */
 
