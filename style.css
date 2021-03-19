@@ -10,7 +10,7 @@
 .site_container{
     width: 70%;
     margin: 20px auto;    
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* /Page Coordinates */
 
@@ -76,15 +76,12 @@ a:hover{
 .title{
     height: 120px;
     background-color: white;
-    /* position: relative; */
 }
 .label{
-    /* line-height: 25px; */
     padding-top: 25px;
 }
 .label2{
     color: grey;
-    /* padding-bottom: 20px; */
 }
 /* /Titles section */
 
@@ -140,13 +137,10 @@ a:hover{
      background-image: url('./img/banner-2.jpg');
      background-size: cover;
      background-position: 50%;
-     /* background-position: center;
-     background-repeat: no-repeat; */
      height: 180px;
      width: 100%;
      border-radius: 1rem;
      filter: brightness(70%);
-     /* border: 2px solid black; */
  }
  /* /Float section  */
 
