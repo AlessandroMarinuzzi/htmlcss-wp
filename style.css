@@ -8,10 +8,9 @@
 
 /* Page Coordinates */
 .site_container{
-    background-color: lightgrey;
     width: 70%;
-    /* height: 1000px; */
     margin: 20px auto;    
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 /* /Page Coordinates */
 
@@ -28,7 +27,6 @@ header{
 .menu{
     display: inline-block;
     text-decoration: none;
-    color: grey;
     margin-top: 20px;
     margin-left: 0px;
     padding-right: 10px;
@@ -88,19 +86,7 @@ a:hover{
 }
 /* /Titles section */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Float section */
 .clearfix::after{
     content: "";
     display: table;
@@ -109,30 +95,75 @@ a:hover{
 
 .column{
     width: 20%;
-    height: 300px;
-    background-color: yellowgreen;
+    background-color: white;
     float: left;
 }
 
 .central{
-    width: 60%;
+    width: 55%;
+    padding:0 2% ;
     height: 300px;
-    background-color: violet;
+    background-color: white;
     float: left;
 }
 
+.central > p, .column > p{
+    color: grey;
+   
+}
+.central > h4, .column > h4{
+    color: rgb(29, 24, 24);
+    margin: 15px 0;
+}
+
+ .left_picture{
+    background-image: url('./img/img-1.jpg');
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    filter: brightness(70%);
+    border-radius: 1rem;
+}
+
+.right_picture{
+    background-image: url('./img/img-3.jpg');
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    filter: brightness(70%);
+    border-radius: 1rem;
+}
+    
+ .central_picture{
+     background-image: url('./img/banner-2.jpg');
+     background-size: contain;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 180px;
+     width: 100%;
+     border-radius: 1rem;
+     filter: brightness(70%);
+     border: 2px solid black;
+ }
+ /* /Float section  */
+
+/* Footer */
 footer{
-    background-color:skyblue;
+    background-color:white;
     height: 100px;
+    margin-top: 20px;
     position: relative;
 }
-/* 
-h4::after{
-    content: ' \262E';
+
+h4:only-child{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 30px;
-    color: darkred;    
-} */
+    font-size: 20px;
+}
+
+.heart{
+    color: red;
+}
+/* /Footer */
