@@ -44,19 +44,62 @@ a:hover{
 }
 /* /Header,Logo,Nav */
 
-
-
-
+/* Yoga Banner and Text */
 .main_banner{    
-    height: 300px;
-    background-color:springgreen ;
+    height: 400px;
+    background-image:linear-gradient(rgba(112, 110, 110, 0.527),rgba(126, 122, 122, 0.5)) , url('img/banner.jpg');
+    background-size: cover;
+    background-position: 75% 60%;
     border-radius: 1rem ;
+    position: relative;
 }
 
-.title{
-    height: 100px;
-    background-color: turquoise;
+.banner_text{
+    color: white;
+    max-width: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    font-size: 25px;
+    line-height: 25px;
 }
+.banner_subtext{
+    color: white;
+    max-width: 50% ;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+}
+/* /Yoga Banner and Text */
+
+/* Titles section */
+.title{
+    height: 120px;
+    background-color: white;
+    position: relative;
+}
+.label{
+    /* line-height: 25px; */
+    padding-top: 25px;
+}
+.label2{
+    color: grey;
+    /* padding-bottom: 20px; */
+}
+/* /Titles section */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .clearfix::after{
     content: "";
@@ -83,7 +126,7 @@ footer{
     height: 100px;
     position: relative;
 }
-
+/* 
 h4::after{
     content: ' \262E';
     position: absolute;
@@ -92,4 +135,4 @@ h4::after{
     transform: translate(-50%,-50%);
     font-size: 30px;
     color: darkred;    
-}
+} */
