@@ -76,7 +76,7 @@ a:hover{
 .title{
     height: 120px;
     background-color: white;
-    position: relative;
+    /* position: relative; */
 }
 .label{
     /* line-height: 25px; */
